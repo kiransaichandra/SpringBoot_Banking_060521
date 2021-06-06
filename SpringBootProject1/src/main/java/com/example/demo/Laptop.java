@@ -20,7 +20,7 @@ public class Laptop {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-	
+	//testchangelaptop
 	public void showL() {
 		System.out.println("Laptop Show");
 	}
