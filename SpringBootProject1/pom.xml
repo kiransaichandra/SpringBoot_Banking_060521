@@ -49,6 +49,13 @@
     <artifactId>tomcat-jasper</artifactId>
     <version>9.0.46</version>
 </dependency>
+
+<!-- Below dependency is for automatically publishing changes without restarting tomcat. This is not mandatory, you can remove this. -->
+<dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-devtools</artifactId>
+     <optional>true</optional>
+</dependency>
 		
 		
 	</dependencies>
